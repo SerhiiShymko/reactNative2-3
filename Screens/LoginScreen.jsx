@@ -76,7 +76,7 @@ const LoginScreen = () => {
                       marginTop: isShowKeyboard ? 456 : 0,
                     },
                     android: {
-                      marginTop: isShowKeyboard ? -50 : 0,
+                      marginTop: isShowKeyboard ? -70 : 0,
                     },
                   }),
                 }}>
