@@ -8,8 +8,8 @@ import {
   Keyboard,
 } from "react-native";
 
-// import LoginScreen from "./Screens/LoginScreen";
-// import RegistrationScreen from "./Screens/RegistrationScreen";
+import LoginScreen from "./Screens/LoginScreen";
+import RegistrationScreen from "./Screens/RegistrationScreen";
 
 export default function App() {
   return (
@@ -18,7 +18,7 @@ export default function App() {
         <ImageBackground
           style={styles.imgBg}
           source={require("./assets/images/imageBG.png")}>
-          {/* // <RegistrationScreen /> */}
+          <RegistrationScreen />
           {/* <LoginScreen /> */}
           <StatusBar style="auto" />
         </ImageBackground>
