@@ -18,8 +18,8 @@ export default function App() {
         <ImageBackground
           style={styles.imgBg}
           source={require("./assets/images/imageBG.png")}>
-          {/* <RegistrationScreen /> */}
-          <LoginScreen />
+          <RegistrationScreen />
+          {/* <LoginScreen /> */}
           <StatusBar style="auto" />
         </ImageBackground>
       </TouchableWithoutFeedback>
